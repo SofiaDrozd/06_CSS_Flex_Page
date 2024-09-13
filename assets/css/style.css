@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header,
+footer {
+  width: 100%;
+}
+
+header {
+  background-image: url(./../bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  
+  color: #f4f4f4;
+  min-height: 100vh;
+  
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome {
+    width: 300px;
+}
+
+img {
+  height: 170px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.userSocialLink {
+    font-size: 50px;
+    height: 45px;
+  }
+
+.courses {
+  /* width: 100%; */
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  color: #f4f4f4;
+  padding: 60px;
+  gap: 40px
+}
+
+.courses1 {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 300px;
+}
+
+.text {
+    margin-top: 0;
+}
+
+.about {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 50px ;
+  background-color: #f4f4f4;
+  gap: 200px;
+}
+
+.laptop {
+  font-size: 10em;
+  color: #333;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 450px;
+  margin-top: 0;
+}
+
+footer {
+  background-color: #333;
+  color: #f4f4f4;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
